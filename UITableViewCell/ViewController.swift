@@ -16,14 +16,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var Detail: UILabel!
     @IBOutlet weak var Day: UILabel!
     var event: Event?
-    var dayDetail: String?
     var DayOfWeekViewControll = String()
     //var even2 = String()
     
         override func viewDidLoad() {
         super.viewDidLoad()
-        NameEvent.text = event?.title
-        Detail.text = event?.description
+        NameEvent.text = event?.nameevent
+        Detail.text = event?.detail
         Day.text = DayOfWeekViewControll
         // Do any additional setup after loading the view, typically from a nib.
     }
