@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var Day: UILabel!
     var event: Event?
     var DayOfWeekViewControll = String()
-    //var even2 = String()
     
         override func viewDidLoad() {
         super.viewDidLoad()
