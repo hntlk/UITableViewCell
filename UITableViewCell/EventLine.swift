@@ -76,7 +76,7 @@ class EventLine
         
         events.append(Event(nameevent: "Swimming", detail: "Swim to the C Challenge"))
         events.append(Event(nameevent: "Swimming extra", detail: "Swim to the F Challenge"))
-        events.append(Event(nameevent: "Intimate Violence", "detail: Intimate Violence & Beyond Criminal Justice Interventions"))
+        events.append(Event(nameevent: "Intimate Violence", detail: "Intimate Violence & Beyond Criminal Justice Interventions"))
         events.append(Event(nameevent: "Arts and Letters", detail: "Arts and Letters Series: J Ryan Stradal	"))
         
         return EventLine(daysOfWeek: "Thursday", includeEvents: events)
